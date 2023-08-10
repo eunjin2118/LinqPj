@@ -61,6 +61,7 @@ namespace LinqPj
         {
             musicBindingSource.DataSource = from item in musics
                                             where item.Date > 500
+                                            orderby item.Date
                                             select item;
         }
 

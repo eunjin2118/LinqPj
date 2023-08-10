@@ -77,7 +77,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(240, 56);
             this.button2.TabIndex = 3;
-            this.button2.Text = "5월 이후에 나온 곡";
+            this.button2.Text = "5월 이후에 나온 곡 날짜 순서대로 정렬해서 보기";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
